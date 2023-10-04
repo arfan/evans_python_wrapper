@@ -6,7 +6,7 @@ result, error = wrapper.call(
     endpoint="hello.HelloService.SayHello",
     host_port="localhost:9000",
     payload={
-        "greeting": "say hi",
+        "greeting": "Hello World",
     },
     metadata={},
     tls=False
